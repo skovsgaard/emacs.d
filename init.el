@@ -27,6 +27,9 @@
     ;; Get ido everywhere
     ido-ubiquitous
 
+    ;; Lisp Flavored Erl mode
+    lfe-mode
+
     ;; Better execs!
     smex
 
@@ -67,4 +70,5 @@
 (require 'setup-clojure)
 (require 'setup-elixir)
 (require 'setup-erlang)
+(require 'setup-lfe)
 (require 'setup-js)
