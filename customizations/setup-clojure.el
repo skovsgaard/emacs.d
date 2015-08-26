@@ -5,6 +5,9 @@
 ;; Use with paredit
 (add-hook 'clojure-mode-hook 'enable-paredit-mode)
 
+;; Get delicious rainbow parens
+(add-hook 'clojure-mode-hook 'rainbow-delimiters-mode-enable)
+
 ;; In case of Java, prepare for camelCase
 (add-hook 'clojure-mode-hook 'subword-mode)
 

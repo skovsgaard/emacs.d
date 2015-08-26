@@ -2,7 +2,7 @@
 (menu-bar-mode -1)
 
 ;; Show line numbers
-(setq column-number-mode t)
+(global-linum-mode t)
 
 ;; Show column numbers too
 (setq column-number-mode t)

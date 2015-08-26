@@ -33,7 +33,7 @@
 (global-set-key (kbd "C-;") 'toggle-comment-on-line)
 
 ;; YAY RAINBOWS!
-(rainbow-delimiters-mode t)
+(rainbow-delimiters-mode-enable)
 
 ;; ALWAYS 2 space indents please and thank you :>
 (defun die-tabs ()

@@ -48,6 +48,12 @@
     ;; Parens handling!
     paredit
 
+    ;; Vala stuff
+    vala-mode
+
+    ;; And the snips
+    ;; vala-snippets
+
     ;; Pretty colors!
     zenburn-theme))
 
